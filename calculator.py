@@ -63,6 +63,20 @@ class Calculator:
             float: The result of raising the number to the power.
         """
 
+    def add_three_numbers(number1: float, number2: float, number3: float) -> float:
+        """
+        Adds three numbers.
+
+        Args:
+            number1 (float): The first number to add.
+            number2 (float): The second number to add.
+            number3 (float): The third number to add.
+
+        Returns:
+            float: The sum of the three numbers.
+        """
+        return number1 + number2 + number3
+
 # Don't 
 assert Calculator.multiply(2, 3) == 6
 assert Calculator.divide(6, 2) == 3
