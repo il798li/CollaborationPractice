@@ -12,7 +12,7 @@ class Calculator:
         Returns:
             float: The product of the two factors.
         """
-    
+    return factor1 * factor2
     def divide(dividend: float, divisor: float) -> float:
         """
         Divides two numbers.
