@@ -12,8 +12,11 @@ class Calculator:
         Returns:
             float: The product of the two factors.
         """
-        return factor1 * factor2
+  return factor1 * factor2
+Test-Lecture-#2
+=======
 
+main
     def divide(dividend: float, divisor: float) -> float:
         """
         Divides two numbers.
@@ -62,6 +65,8 @@ class Calculator:
         Returns:
             float: The result of raising the number to the power.
         """
+    def 
+
 
 # Don't 
 assert Calculator.multiply(2, 3) == 6
@@ -69,3 +74,4 @@ assert Calculator.divide(6, 2) == 3
 assert Calculator.add(2, 3) == 5
 assert Calculator.subtract(5, 2) == 3
 assert Calculator.power(2, 3) == 8
+
