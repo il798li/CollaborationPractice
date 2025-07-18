@@ -12,7 +12,11 @@ class Calculator:
         Returns:
             float: The product of the two factors.
         """
-        return factor1 * factor2
+  return factor1 * factor2
+Test-Lecture-#2
+=======
+
+main
     def divide(dividend: float, divisor: float) -> float:
         """
         Divides two numbers.
@@ -27,7 +31,7 @@ class Calculator:
     
     def add(number1: float, number2: float) -> float:
         """
-        Adds two numbers.
+        Adds two numbers. This one has been done as an example.
 
         Args:
             number1 (float): The first number to add.
@@ -64,6 +68,7 @@ class Calculator:
     def 
 
 
+# Don't 
 assert Calculator.multiply(2, 3) == 6
 assert Calculator.divide(6, 2) == 3
 assert Calculator.add(2, 3) == 5
