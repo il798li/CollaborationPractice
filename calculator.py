@@ -9,7 +9,7 @@ class Calculator:
         pass
     
     def subtract(minuend: float, subtrahend: float) -> float:
-        pass
+        return minuend - subtrahend
     
     def power(base: float, exponent: int) -> float:
         return base ** exponent
@@ -21,3 +21,5 @@ class Calculator:
 #assert Calculator.divide(6.6, 2.2) == 3
 #assert Calculator.add(2.2, 3.3) == 5.5
 #assert Calculator.subtract(5.5, 2.2) == 3.3
+
+# + - / *
